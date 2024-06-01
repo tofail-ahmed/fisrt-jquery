@@ -29,9 +29,26 @@ $("#button1").click(function(){
       //       $('#p1').text(`${text} is clicked...`)
       // })
 
-      
+
       $('.myButton').on('click',function(){
             var text=this.innerHTML;
             $('#p1').text(`${text} is clicked...`)
       })
+
+      $("#login").click(function () {
+        // alert("Hello Jquery")
+        var pass1 = $("#pass1").val();
+        var pass2 = $("#pass2").val();
+        if (pass1 != "" && pass2 != "") {
+          if (pass1 === pass2) {
+            alert("Login Succesful");
+            $("#pass1").val("");
+            $("#pass2").val("");
+          } else {
+            alert("Password not matched");
+          }
+        } else {
+          alert("Plesae enter password");
+        }
+      });
 
