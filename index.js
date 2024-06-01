@@ -7,7 +7,7 @@
 // $("#p1").append("  <p>kemon aso???<p/>")
 
 
-var myPara0=$('<p></p>').text("This is paragraph 0");
-var myPara2=$('<p></p>').text("This is paragraph 2");
-$('#p1').before(myPara0)
-$('#p1').after(myPara2)
+// var myPara0=$('<p></p>').text("This is paragraph 0");
+// var myPara2=$('<p></p>').text("This is paragraph 2");
+// $('#p1').before(myPara0)
+// $('#p1').after(myPara2)

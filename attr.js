@@ -8,6 +8,6 @@
 
 // document.querySelector('a').setAttribute('href','https://atofail.vercel.app')
 
-$('a').attr('href','https://atofail.vercel.app')
-var myAttr1=$('a').attr('href')
-console.log(myAttr1)
+// $('a').attr('href','https://atofail.vercel.app')
+// var myAttr1=$('a').attr('href')
+// console.log(myAttr1)
