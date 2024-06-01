@@ -52,3 +52,18 @@ $("#button1").click(function(){
         }
       });
 
+
+      $("#btn-animation").click(function(){
+           
+            // $("#div1").hide(2000).show(100)
+            // $("#div1").toggle(2000)
+            // $("#div1").fadeOut(1000)
+            // $("#div1").fadeIn(1000).fadeOut(1000)
+            // $("#div1").fadeToggle(2000)
+            // $("#div1").fadeTo(2000,0.5)
+            // $('#div1').slideUp(2000).slideDown(1000)
+            $('#div1').slideToggle(1000)
+         
+      })
+
+

@@ -12,3 +12,20 @@
       display: flex;
       justify-content: center;
 }
+
+.div-style{
+    /* display: none; */
+    width: 500px;
+  text-align: justify;
+    margin: 0px auto;
+    color: rgb(9, 236, 96);
+    background-color: rgb(109, 18, 117);
+    border-radius: 5px;
+    padding: 5px;
+}
+#btn-animation{
+    margin: 0px auto;
+    display: flex;
+    
+
+}
