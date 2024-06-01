@@ -1,0 +1,14 @@
+.style1{
+    color:blue;
+    font-size:40px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.style2{
+      background-color: aqua;
+      border-radius: 5px;
+      padding: 2px;
+      display: flex;
+      justify-content: center;
+}
