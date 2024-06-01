@@ -62,7 +62,8 @@ $("#button1").click(function(){
             // $("#div1").fadeToggle(2000)
             // $("#div1").fadeTo(2000,0.5)
             // $('#div1').slideUp(2000).slideDown(1000)
-            $('#div1').slideToggle(1000)
+            // $('#div1').slideToggle(1000)
+            $('#div1').animate({opacity:1.5,fontSize:"20px",fontWeight:"900"},2000)
          
       })
 
