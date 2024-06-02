@@ -29,11 +29,37 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus unde atque facere eos quo, eum nihil autem modi porro, aspernatur distinctio iure sed exercitationem et voluptas. Quidem recusandae impedit esse illum, quas inventore perferendis necessitatibus omnis commodi? Recusandae minus praesentium porro nemo non, illo tenetur aperiam quibusdam, adipisci alias delectus.</p>
 </div>
 <button id="btn-animation">Click</button>
+
+<div class="calculator">
+      <input id="result" type="text" class="calculator-screen" value="" disabled />
+      <div class="calculator-keys calc-body" >
+          <button type="button" class="operator" value="+" onclick="insertNumber('+')">+</button>
+          <button type="button" class="operator" value="-" onclick="insertNumber('-')">-</button>
+          <button type="button" class="operator" value="*" onclick="insertNumber('*')">&times;</button>
+          <button type="button" class="operator" value="/" onclick="insertNumber('/')">&divide;</button>
+          <button type="button" value="9" onclick="insertNumber(9)">9</button>
+          <button type="button" value="8" onclick="insertNumber(8)">8</button>
+          <button type="button" value="7" onclick="insertNumber(7)">7</button>
+          <button type="button" value="6" onclick="insertNumber(6)">6</button>
+          <button type="button" value="5" onclick="insertNumber(5)">5</button>
+          <button type="button" value="4" onclick="insertNumber(4)">4</button>
+          <button type="button" value="3" onclick="insertNumber(3)">3</button>
+          <button type="button" value="2" onclick="insertNumber(2)">2</button>
+          <button type="button" value="1" onclick="insertNumber(1)">1</button>
+          <button type="button" value="0" onclick="insertNumber(0)">0</button>
+          <button type="button" value="." onclick="insertNumber('.')">.</button>
+          <button type="button" class="all-clear" value="all-clear" onclick="clearResult()">AC</button>
+          <button type="button" class="equal-sign operator" value="=" onclick="calculate()">=</button>
+
+          <button type="button" class="" operator" value="DEL" onclick="deleteNumber()">DEL</button>
+      </div>
+  </div>
 <!-- <a href="https://www.youtube.com/" target="_blank" style="color:red;">YouTube</a> -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
       <script src="index.js"></script>
       <script src="attr.js"></script>
       <script src="style.js"></script>
       <script src="event.js"></script>
+      <script src="calculator.js"></script>
 </body>
 </html>
